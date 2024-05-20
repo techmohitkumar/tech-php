@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding: 2% 5%;
+    background-color: teal;
+    color: white;
+
+}
+
+ul {
+    display: flex;
+    padding: 1% 5%;
+    background-color: tomato;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
