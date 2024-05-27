@@ -54,7 +54,7 @@ require_once 'config.php';
     }
     else{
         ?>
-    <table border="0" width="90%">
+    <table border="1" width="90%">
         <?php
         while($res=mysqli_fetch_array($data)){
             ?>
