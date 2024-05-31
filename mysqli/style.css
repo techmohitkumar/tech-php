@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.dfg img{
+    /* display: flex; */
+    justify-content: center;
+    width: 80%;
+}
+h1 {
+    padding: 2% 5%;
+    background-color: rgb(243, 157, 45);
+    color: white;
+
+}
+
+ul {
+    display: flex;
+    padding: 1% 5%;
+    background-color: rgb(71, 227, 255);
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.box{
+    padding: 1% ;
+    margin: 1% 5%;
+    border-radius: 20px;
+    background: whitesmoke;
+    display: flex;
+}
+.box1{
+    /* border: 2px solid black; */
+    width: 75%;
+}
+ .box1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+ }
+ .box2{
+    padding: 20px;
+     width: 25%;
+
+ }
+ .box2 input{
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+     font-size: medium;
+    
+ }
+ input[type=submit] {
+    margin-left: 90px;
+    width: 50%;
+   
+    padding: 1%;
+    background-color: royalblue;
+    color: white;
+}
+
+table {
+    margin: auto;
+    padding: auto;
+}
+table tr td {
+    padding: 0.50%;
+}
+.box5{
+    width: 25%;
+    padding: 20px;
+    width: 25%;
+}
+.box5 input{
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin: 5px;
+     font-size: medium;
+
+}
+.box5 input[type=submit] {
+    margin-left: 40px;
+    width: 50%;
+   
+    padding: 1%;
+    background-color: royalblue;
+    color: white;
+}
